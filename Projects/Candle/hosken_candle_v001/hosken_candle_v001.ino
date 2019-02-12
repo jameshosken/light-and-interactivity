@@ -5,8 +5,15 @@
   created 28 Jun 2018
   by Tom Igoe
 
-  Modified one 10 Febv 2019
+  Modified on 10 Febv 2019
   by James  Hosken
+
+  Electret Microphone connected to A0 
+  10K LDR connected to A1
+  (Both with 10K voltage dividers from Vcc)
+
+  Neopixel Jewel on pin 6
+  
 */
 
 
@@ -233,6 +240,3 @@ void incrementHue(int n){
   }
   strip.setPixelColor(n, color.red, color.green, color.blue);   
 }
-
-
-
