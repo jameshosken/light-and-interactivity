@@ -1,0 +1,5 @@
+Notes on LDR
+
+- High cap touch values slow down the sketch.
+
+- Tried Scheduler, had epic failures (port became unrecognised, had to reinstall drivers)
